@@ -1,0 +1,52 @@
+h1{
+    background-color:blueviolet;
+    border: 2px solid black;
+}
+@media(width:500px){
+    h1{
+        background-color:red ;
+        color:beige;
+    }
+    div{
+        background-color:cyan;
+        height:100px;
+        width:100px;
+    }
+
+}
+@media(min-width:1100px){
+    h1{
+        background-color:rgb(37, 249, 157) ;
+        color:rgb(235, 235, 22);
+    }
+    div{
+        background-color:rgb(89, 12, 171);
+        height:100px;
+        width:100px;
+    }
+
+}
+@media(max-width:600px){
+    h1{
+        background-color:rgb(233, 244, 23) ;
+        color:rgb(16, 188, 191);
+    }
+    div{
+        background-color:rgb(5, 26, 56);
+        height:100px;
+        width:100px;
+    }
+
+}
+@media(orientation:landscape){
+    h1{
+        background-color:rgb(1, 175, 191) ;
+        color:rgb(104, 8, 19);
+    }
+    div{
+        background-color:rgb(179, 171, 25);
+        height:100px;
+        width:100px;
+    }
+
+}
