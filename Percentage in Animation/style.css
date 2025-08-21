@@ -1,0 +1,12 @@
+.box {
+    height:100px;
+    width:300px;
+    background-color:rgb(171, 176, 71);
+    color:rgb(225, 31, 31);
+    animation:percentage 5s ease-in 0s infinite normal;
+}
+@keyframes percentage {
+    0% {background-color: rgb(0, 255, 0);}
+    60%{background-color: brown;}
+    100%{background-color: blueviolet;}
+}
