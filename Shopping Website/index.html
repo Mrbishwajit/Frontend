@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Shopping Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Simple Shopping Website</h1>
+  </header>
+  
+  <div class="container">
+    <!-- Product List -->
+    <div class="products">
+      <h2>Products</h2>
+
+      <div class="product">
+        <img src="mobile.webp" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>Price: ₹100</p>
+        <button onclick="addToCart('Product 1', 100)">Add to Cart</button>
+
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Price: ₹200</p>
+        <button onclick="addToCart('Product 2', 200)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>Price: ₹150</p>
+        <button onclick="addToCart('Product 3', 150)">Add to Cart</button>
+      </div>
+
+    </div>
+
+    <!-- Shopping Cart -->
+    <div class="cart">
+      <h2>Cart</h2>
+      <ul id="cartList"></ul>
+      <p class="total">Total: ₹<span id="totalPrice">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
