@@ -1,0 +1,37 @@
+/* h1{
+    color: teal;
+    background-color:crimson;
+}
+P{
+    color:chartreuse;
+    background-color: brown;
+}
+button{
+color:rgb(48, 3, 252);
+background-color:cyan;    
+}
+body{
+    background-color:beige;
+} */
+ *{
+    color:blueviolet
+ }
+ /* for heading id */
+ #heading1 {
+    color:brown
+ }
+ #heading2 {
+    color:darkturquoise
+ }
+ #heading3 {
+    color:crimson
+ }
+ #heading4 {
+    color:chartreuse
+ }
+ #heading15{
+    color:blueviolet
+ }
+ .myclass{
+    color:olive
+ }
