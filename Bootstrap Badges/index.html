@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+   />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Badges</h2>
+    <h1>Example heading <span class="badge text-bg-secondary">New</span></h1>
+<h2>Example heading <span class="badge text-bg-secondary">New</span></h2>
+<h3>Example heading <span class="badge text-bg-secondary">New</span></h3>
+<h4>Example heading <span class="badge text-bg-secondary">New</span></h4>
+<h5>Example heading <span class="badge text-bg-secondary">New</span></h5>
+<h6>Example heading <span class="badge text-bg-secondary">New</span></h6>
+<!-- Badges can be used as part of links or buttons to provide a counter. -->
+ <button type="button" class="btn btn-primary">
+  Notifications <span class="badge text-bg-secondary">4</span>
+</button>
+<!-- Positioned 
+Use utilities to modify a .badge and position it in the corner of a link or button. -->
+<button type="button" class="btn btn-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+</body>
+</html>
